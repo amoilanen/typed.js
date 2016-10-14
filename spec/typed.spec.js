@@ -13,6 +13,16 @@ describe('type', () => {
     });
   });
 
+  it('can be used in function arguments', () => {
+
+    const f = x => {
+      number(x)
+      return x;
+    };
+
+    expect(f(3)).toEqual(3);
+  });
+
   //TODO: Primitive types: bool, number, string
   //TODO: Type array
   //TODO: Type object
