@@ -1,0 +1,16 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Visual Studio Code settings
+.vscode
+
+# Built
+dist
+
+# Dependency directories
+node_modules
+
+# Optional npm cache directory
+.npm
